@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+}
+.banner-discription{
+  
+    text-align: right;
+    /* margin-right: 0px; */
+    top: 0;
+    right: 0;
+    /* padding-right: 0px; */
+    /* padding-top: 30px; */
+}
+.title{
+    color: #151414;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    
+}
+.para{
+
+    color: #444343;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn{
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    
+}
+
+.tick-mark-list {
+    list-style-type: none;
+    padding-left: 0; 
+  }
+  
+  .tick-mark-list li:before {
+    content: "✓";
+    color: rgb(0, 0, 0);
+  }
+  .failour{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+
+  }
+  .discreption{
+    display: flex;
+    width: 288px;
+    flex-direction: column;
+    align-items: left;
+    
+  }
+  .discreption h4{
+    
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .discreption p{
+    color:#444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    
+  }
+.discreption ol li{
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.plan{
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.tools{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 8px;
+    padding: 5px;
+    padding-bottom: 150px;
+    
+}
+.div{
+    /* border: 2px solid black; */
+    gap: 5px;
+    margin: 15px;
+    padding: 10px;
+}
+.div h4{
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+
+}
+.div p{
+    color:  #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+.icon{
+    align-items: center;
+    padding-left: 30px;
+}
+.mindset{
+    
+    text-align: left;
+    padding: 59px 617px 147px 64px;
+    background-image:  url('../images/gradient2.png'), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.mindset h2{
+    display: flex;
+    width: 459px;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.mindset button{
+    
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    background: #151414;
+    width: 1600px;
+    height: 577px;
+    padding-top: 130px;
+
+}
+.footer p{
+    display: flex;
+    width: 485px;
+    flex-direction: column;
+    color: #ffffff;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.future h2{
+    color: #fffefe;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+.subscribe h2{
+    color: #e0dfdf;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 31px;
+}
+.subscribe input{
+    color: #e7e7e7;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 22px;
+    border-radius: 5px;
+
+}
+#input{
+    /* padding-bottom: 16px; */
+    margin-bottom: 16px;
+}
+.subscribe button{
+    
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.list {
+    display: inline;
+    list-style: none;
+}
+
+
