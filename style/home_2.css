@@ -1,0 +1,198 @@
+/* Header Style  */
+*{
+    margin: 0px;
+    font-family: Work Sans;
+}
+.banner{
+    background-image: url("../images/banner/banner2.png");
+    height: 750px;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.banner h3{
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444343;
+}
+.banner button{
+    width: 160px;
+    height: 64px;
+    background-color: #F15B22;
+    color: #fffcfb;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;   
+}
+.banner-discription{
+    align-items: center;
+    text-align: right;
+    margin-right: 230px;
+}
+
+/* my Failure Section  */
+
+.failour{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.failour-discreption{
+    margin-top: 250px;
+}
+.failour-discreption h3{
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.failour-discreption p{
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.failour-discreption ol{
+    list-style: none;
+    color: #444343;
+    padding-left: 0px;
+}
+.tick-mark li::before{
+    content: "✓";
+    color: #444343;
+}
+/* My Plan Start */
+
+.title{
+    text-align: center;
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.tools{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.plans h5{
+    color:#151414;
+    font-size: 20px;
+    font-weight: 400;
+}
+.plans p{
+    color: #474242;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/* mindset starts */
+
+.mindset{
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    text-align: left;
+    margin-left: 230px;
+    padding: 59px 617px 147px 64px;
+}
+.mindset h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+}
+.mindset button{
+    width: 160px;
+    height: 64px;
+    color: #F15B22;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+/* Footer Starts here */
+.footer{
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 130px;
+}
+
+/* .future{
+    background-color: black;
+    color: #FFF;
+    
+    
+} */
+.future h2{
+    
+    font-size: 45px;
+    font-weight: 700;
+    padding: 5px;
+}
+.future p{
+    color: #9f9797;
+    font-size: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+.future h4{
+    color: #7d7979;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.future ol{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    padding-top: 10px;
+}
+.subscribe input{
+    color: #e7e7e7;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 22px;
+    border-radius: 5px;
+}
+#input{
+    margin-bottom: 16px;
+}
+.subscribe button{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+.subscribe h2{
+    
+}
+
+
+
+
+
+
